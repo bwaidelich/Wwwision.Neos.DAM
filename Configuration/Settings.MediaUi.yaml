@@ -1,0 +1,10 @@
+t3n:
+  GraphQL:
+    endpoints:
+      'media-assets':
+        logRequests: false
+        schemas:
+          root:
+            resolverPathPattern: 'Wwwision\Neos\DAM\GraphQLResolvers\{Type}Resolver'
+            resolvers:
+              AssetProxy: 'Wwwision\Neos\DAM\GraphQLResolvers\AssetResolver'

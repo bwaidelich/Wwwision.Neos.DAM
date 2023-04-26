@@ -1,0 +1,3 @@
+Wwwision\DAM\DAM:
+  scope: singleton
+  factoryObjectName: Wwwision\Neos\DAM\Factory\DAMFactory

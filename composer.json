@@ -1,0 +1,27 @@
+{
+    "description": "Neos integration of the Digital Asset Management based on the Event Sourced Content Repository",
+    "type": "neos-package",
+    "name": "wwwision/neos-dam",
+    "require": {
+        "neos/flow": "*",
+        "wwwision/dam": "*",
+        "neos/contentrepositoryregistry": "*",
+        "flowpack/media-ui": "*",
+        "t3n/graphql": "*",
+        "neos/contentgraph-doctrinedbaladapter": "*",
+        "neos/contentgraph-postgresqladapter": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\Neos\\DAM\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Wwwision.Neos.DAM"
+        }
+    }
+}
