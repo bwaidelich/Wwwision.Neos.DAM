@@ -2,6 +2,7 @@
     "description": "Neos integration of the Digital Asset Management based on the Event Sourced Content Repository",
     "type": "neos-package",
     "name": "wwwision/neos-dam",
+    "license": "MIT",
     "require": {
         "neos/flow": "*",
         "wwwision/dam": "*",
@@ -23,5 +24,15 @@
         "neos": {
             "package-key": "Wwwision.Neos.DAM"
         }
-    }
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/bwaidelich"
+        },
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.me/bwaidelich"
+        }
+    ]
 }
